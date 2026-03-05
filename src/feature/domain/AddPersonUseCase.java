@@ -1,11 +1,10 @@
 package feature.domain;
 
-
-public class ViewPersonUseCase {
+public class AddPersonUseCase {
 
     PersonRepository personRepository;
 
-    public ViewPersonUseCase(PersonRepository personRepository) {
+    public AddPersonUseCase(PersonRepository personRepository) {
         this.personRepository = personRepository;
     }
 

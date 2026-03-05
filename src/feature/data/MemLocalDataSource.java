@@ -8,6 +8,9 @@ import java.util.Objects;
 public class MemLocalDataSource {
     private ArrayList<Character> storage = new ArrayList<>();
 
+    public MemLocalDataSource(MemDataRepository memDataRepository) {
+    }
+
 
     public ArrayList<Person> findAll() {
         return storage;

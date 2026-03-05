@@ -9,11 +9,17 @@ public class ViewPerson {
 
     PersonRepository personRepository;
 
-    ViewPersonUseCase viewPersonUseCase = new ViewPersonUseCase(new MemLocalDataSource(new MemDataRepository()));
+    ViewPersonUseCase viewPersonUseCase = new ViewPersonUseCase((PersonRepository) new MemLocalDataSource(new MemDataRepository()));
 
     public static void viewPerson(){
 
     }
+
+    public static  void addPerson(){
+
+    }
+
+
 
 
 }
