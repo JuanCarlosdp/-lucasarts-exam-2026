@@ -1,15 +1,15 @@
-package org.lucasarts;
+package feature.data;
 
-import org.nissan.Vehicle;
+import feature.domain.Person;
 
 import java.util.ArrayList;
 import java.util.Objects;
 
-public class CharacterMemLocalDataSource {
-
+public class MemLocalDataSource {
     private ArrayList<Character> storage = new ArrayList<>();
 
-    public ArrayList<Character> findAll() {
+
+    public ArrayList<Person> findAll() {
         return storage;
     }
 
