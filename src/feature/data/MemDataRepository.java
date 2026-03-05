@@ -20,5 +20,10 @@ public class MemDataRepository implements PersonRepository {
 
     }
 
+    @Override
+    public void delete(String id) {
+
+    }
+
 
 }
